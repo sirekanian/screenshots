@@ -14,8 +14,8 @@ OUTPUT="$1-latest.apk"
 rm -f "$OUTPUT"
 
 case "$1" in
-  spacetime) url="https://github.com/sirekanian/$1/releases/download/v0.8.2/com.sirekanian.$1-0.8.2-22-release.apk" ;;
-  warmongr) url="https://github.com/sirekanian/$1/releases/download/v0.6.1/com.sirekanian.$1-0.6.1-32-release.apk" ;;
+  spacetime) url="https://github.com/sirekanian/$1/releases/download/v1.0.0/com.sirekanian.$1-1.0.0-24-release.apk" ;;
+  warmongr) url="https://github.com/sirekanian/$1/releases/download/v1.0.0/com.sirekanian.$1-1.0.0-38-release.apk" ;;
   *) exit 1 ;;
 esac
 
